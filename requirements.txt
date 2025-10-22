@@ -1,0 +1,7 @@
+# Indeed Job Listings Scraper - Required Packages
+# ================================================
+
+# Selenium - Web automation and scraping
+# Version 4.15.2 includes Selenium Manager which automatically
+# downloads and manages Chrome WebDriver - no manual installation needed!
+selenium==4.15.2
