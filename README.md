@@ -8,7 +8,7 @@ A professional, production-ready web scraper built with Python and Selenium that
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This scraper was developed to demonstrate advanced web scraping capabilities, including:
 - Automated pagination across multiple pages
@@ -21,26 +21,26 @@ This scraper was developed to demonstrate advanced web scraping capabilities, in
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### Data Extraction
-- ✅ **Job Title** - Complete position name
-- ✅ **Company Name** - Hiring organization
-- ✅ **Location** - Job location/remote status
-- ✅ **Job URL** - Direct link to full job posting
+- **Job Title** - Complete position name
+- **Company Name** - Hiring organization
+- **Location** - Job location/remote status
+- **Job URL** - Direct link to full job posting
 
 ### Advanced Capabilities
-- 🤖 **Anti-Bot Detection** - Bypasses Cloudflare, CORS, and bot protection systems
-- 🔄 **Automatic Pagination** - Seamlessly navigates through multiple result pages
-- ⚙️ **Configurable Limits** - Easily control the number of pages to scrape
-- 🎭 **Human Behavior Simulation** - Random delays, scrolling, and realistic user patterns
-- 🛡️ **Robust Error Handling** - Multiple fallback methods for reliable data extraction
-- 📦 **JSON Export** - Clean, structured data output ready for analysis
-- 🚀 **Zero Manual Setup** - Selenium Manager handles WebDriver automatically
+- **Anti-Bot Detection** - Bypasses Cloudflare, CORS, and bot protection systems
+- **Automatic Pagination** - Seamlessly navigates through multiple result pages
+- **Configurable Limits** - Easily control the number of pages to scrape
+- **Human Behavior Simulation** - Random delays, scrolling, and realistic user patterns
+- **Robust Error Handling** - Multiple fallback methods for reliable data extraction
+- **JSON Export** - Clean, structured data output ready for analysis
+- **Zero Manual Setup** - Selenium Manager handles WebDriver automatically
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Python 3.8+** - Core programming language
 - **Selenium 4.15.2** - Browser automation framework
@@ -50,7 +50,7 @@ This scraper was developed to demonstrate advanced web scraping capabilities, in
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Basic Usage
 
@@ -110,7 +110,7 @@ url = "https://www.indeed.com/jobs?q=software+engineer&l=San+Francisco"
 
 ---
 
-## 📊 Output
+## Output
 
 The scraper generates a `job_listings.json` file with structured data:
 
@@ -140,7 +140,7 @@ The scraper generates a `job_listings.json` file with structured data:
 
 ---
 
-## 🛡️ Anti-Bot Detection Features
+## Anti-Bot Detection Features
 
 This scraper includes professional-grade anti-detection mechanisms:
 
@@ -171,7 +171,7 @@ MAX_PAGES = 5  # Scrape fewer pages
 
 ---
 
-## 🔧 How It Works
+## How It Works
 
 ### Workflow
 
@@ -200,20 +200,20 @@ This ensures **maximum reliability** even when Indeed updates their HTML structu
 
 ---
 
-## 📈 Use Cases
+## Use Cases
 
 This scraper is ideal for:
 
-- 📊 **Job Market Research** - Analyze hiring trends and salary data
-- 🎯 **Recruitment Analytics** - Track competitor hiring patterns
-- 📝 **Resume Optimization** - Identify common skill requirements
-- 💼 **Job Aggregation** - Build job board platforms
-- 🔍 **Market Intelligence** - Monitor industry demand
-- 📱 **Job Alert Systems** - Create custom notification services
+- **Job Market Research** - Analyze hiring trends and salary data
+- **Recruitment Analytics** - Track competitor hiring patterns
+- **Resume Optimization** - Identify common skill requirements
+- **Job Aggregation** - Build job board platforms
+- **Market Intelligence** - Monitor industry demand
+- **Job Alert Systems** - Create custom notification services
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 - Respect Indeed's [Terms of Service](https://www.indeed.com/legal)
 - Use reasonable scraping intervals to avoid overloading servers
@@ -223,21 +223,21 @@ This scraper is ideal for:
 
 ---
 
-## 🎓 Skills Demonstrated
+## Skills Demonstrated
 
 This project showcases:
-- ✅ Advanced web scraping techniques
-- ✅ Anti-bot detection bypass strategies
-- ✅ Browser automation with Selenium
-- ✅ Error handling and fault tolerance
-- ✅ Clean code architecture and documentation
-- ✅ Data extraction and JSON serialization
-- ✅ Pagination and dynamic content handling
-- ✅ Configuration management
+- Advanced web scraping techniques
+- Anti-bot detection bypass strategies
+- Browser automation with Selenium
+- Error handling and fault tolerance
+- Clean code architecture and documentation
+- Data extraction and JSON serialization
+- Pagination and dynamic content handling
+- Configuration management
 
 ---
 
-## 🔄 Future Enhancements
+## Future Enhancements
 
 Potential improvements for production use:
 - [ ] Database integration (PostgreSQL, MongoDB)
@@ -252,7 +252,7 @@ Potential improvements for production use:
 
 ---
 
-## 📞 Contact
+## Contact
 
 For custom scraping solutions, data collection projects, or automation development:
 
@@ -263,13 +263,13 @@ For custom scraping solutions, data collection projects, or automation developme
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [Selenium](https://www.selenium.dev/)
 - Inspired by real-world data collection challenges
@@ -277,6 +277,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⭐ If you find this project useful, please consider giving it a star!**
+**If you find this project useful, please consider giving it a star!**
 
 *Note: This scraper is for educational and portfolio demonstration purposes. Always ensure compliance with website terms of service and applicable laws when scraping data.*
